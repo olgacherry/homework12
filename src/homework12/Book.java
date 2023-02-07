@@ -2,9 +2,9 @@ package homework12;
 
 public class Book {
    private String bookName;
-    private String author;
+    private Author author;
    private int publishingYear;
-   public Book(String bookName,String author,int publishingYear){
+   public Book(String bookName, Author author,int publishingYear){
 
        this.bookName = bookName;
        this.author = author;
@@ -14,7 +14,7 @@ public class Book {
        return this.bookName;
    }
 
-   public String getAuthor(){
+   public Author getAuthor(){
        return this.author;
    }
 
