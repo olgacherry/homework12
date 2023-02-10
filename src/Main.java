@@ -17,6 +17,11 @@ public class Main {
         System.out.println("Имя автора - " + annaKarenina.getAuthor());
         System.out.println("Год - " + annaKarenina.getPublishingYear());
 
+        System.out.println(masterAndMargarita);
+        System.out.println(annaKarenina);
+        System.out.println(author1.hashCode());
+        System.out.println(author2.hashCode());
+
         }
 
     }

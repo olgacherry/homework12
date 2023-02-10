@@ -1,27 +1,39 @@
 package homework12;
 
 public class Book {
-   private String bookName;
+    private String bookName;
     private Author author;
-   private int publishingYear;
-   public Book(String bookName, Author author,int publishingYear){
+    private int publishingYear;
 
-       this.bookName = bookName;
-       this.author = author;
-       this.publishingYear = publishingYear;
-   }
-   public String getBookName() {
-       return this.bookName;
-   }
+    public Book(String bookName, Author author, int publishingYear) {
 
-   public Author getAuthor(){
-       return this.author;
-   }
+        this.bookName = bookName;
+        this.author = author;
+        this.publishingYear = publishingYear;
+    }
 
-   public int getPublishingYear(){
-       return this.publishingYear;
-   }
-   public void setPublishingYear(int publishingYear){
-       this.publishingYear = publishingYear;
-   }
+    public String getBookName() {
+        return this.bookName;
+    }
+
+    public Author getAuthor() {
+        return this.author;
+    }
+
+    public int getPublishingYear() {
+        return this.publishingYear;
+    }
+
+    public void setPublishingYear(int publishingYear) {
+        this.publishingYear = publishingYear;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookName='" + bookName + '\'' +
+                ",author=" + author +
+                ",publishingYear=" + publishingYear +
+                '}';
+    }
 }
