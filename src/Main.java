@@ -19,6 +19,8 @@ public class Main {
 
         System.out.println(masterAndMargarita);
         System.out.println(annaKarenina);
+        System.out.println(masterAndMargarita.hashCode());
+        System.out.println(annaKarenina.hashCode());
         System.out.println(author1.hashCode());
         System.out.println(author2.hashCode());
 
